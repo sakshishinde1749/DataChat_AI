@@ -39,32 +39,32 @@ DataChat AI is an intelligent data analysis platform that allows users to intera
 ### Installation
 
 1. Clone the repositorygit clone 
-https://github.com/yourusername/datachat-ai.git
-cd datachat-ai
+- https://github.com/sakshishinde1749/DataChat_AI.git
+- cd datachat-ai
 
 2. Set up the backend
-cd backend
-python -m venv venv
-source venv/bin/activate # On Windows use: venv\Scripts\activate
-pip install -r requirements.txt
+- cd backend
+- python -m venv venv
+- source venv/bin/activate # On Windows use: venv\Scripts\activate
+- pip install -r requirements.txt
 
 3. Create a .env file in the backend directory
-env
-GEMINI_API_KEY=your_gemini_api_key_here
+- env
+- GEMINI_API_KEY=your_gemini_api_key_here
 
 4. Set up the frontend
-cd frontend
-npm install
+- cd frontend
+- npm install
 
 ### Running the Application
 
 1. Start the backend server
-cd backend
-python app.py
+- cd backend
+- python app.py
 
 2. Start the frontend development server
-cd frontend
-npm start
+- cd frontend
+-npm start
 
 
 The application will be available at http://localhost:3000
@@ -89,22 +89,22 @@ The application will be available at http://localhost:3000
 
 ## 📁 Project Structure
 datachat-ai/
-├── backend/
-│ ├── app.py # Flask application
-│ ├── database.py # Database operations
-│ ├── gemini_service.py# AI service integration
-│ └── requirements.txt # Python dependencies
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/ # React components
-│ │ ├── App.js
-│ │ └── App.css
-│ └── package.json
-└── README.md
+- ├── backend/
+- │ ├── app.py # Flask application
+- │ ├── database.py # Database operations
+- │ ├── gemini_service.py# AI service integration
+- │ └── requirements.txt # Python dependencies
+- ├── frontend/
+- │ ├── public/
+- │ ├── src/
+- │ │ ├── components/ # React components
+- │ │ ├── App.js
+- │ │ └── App.css
+- │ └── package.json
+- └── README.md
 
 Also, create a requirements.txt file in your backend directory:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ## 🤝 Contributing
 
