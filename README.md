@@ -2,7 +2,7 @@
 
 DataChat AI is an intelligent data analysis platform that allows users to interact with their data through natural language conversations. Powered by Google's Gemini AI, it converts natural language queries into SQL and provides clear, understandable insights.
 
-![DataChat AI Demo](demo-screenshot.png)
+<img src="./assets/demo-screenshot.png" alt="DataChat AI Demo" width="800"/>
 
 ## ✨ Features
 
@@ -18,12 +18,14 @@ DataChat AI is an intelligent data analysis platform that allows users to intera
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - React.js
 - Axios for API calls
 - Modern CSS with dark theme
 - Responsive design
 
 ### Backend
+
 - Python/Flask
 - Google Gemini AI
 - SQLite for data storage
@@ -32,40 +34,46 @@ DataChat AI is an intelligent data analysis platform that allows users to intera
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Python 3.8+
 - Node.js and npm
 - Google Gemini API key
 
 ### Installation
 
-1. Clone the repositorygit clone 
+1. Clone the repositorygit clone
+
 - https://github.com/sakshishinde1749/DataChat_AI.git
 - cd datachat-ai
 
 2. Set up the backend
+
 - cd backend
 - python -m venv venv
 - source venv/bin/activate # On Windows use: venv\Scripts\activate
 - pip install -r requirements.txt
 
 3. Create a .env file in the backend directory
+
 - env
 - GEMINI_API_KEY=your_gemini_api_key_here
 
 4. Set up the frontend
+
 - cd frontend
 - npm install
 
 ### Running the Application
 
 1. Start the backend server
+
 - cd backend
 - python app.py
 
 2. Start the frontend development server
-- cd frontend
--npm start
 
+- cd frontend
+  -npm start
 
 The application will be available at http://localhost:3000
 
@@ -88,7 +96,9 @@ The application will be available at http://localhost:3000
 - "Which product generated the highest revenue?"
 
 ## 📁 Project Structure
+
 datachat-ai/
+
 - ├── backend/
 - │ ├── app.py # Flask application
 - │ ├── database.py # Database operations
@@ -104,6 +114,7 @@ datachat-ai/
 - └── README.md
 
 Also, create a requirements.txt file in your backend directory:
+
 - pip install -r requirements.txt
 
 ## 🤝 Contributing
